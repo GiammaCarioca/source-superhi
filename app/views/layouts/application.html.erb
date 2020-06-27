@@ -20,7 +20,12 @@
       <h1>Source</h1>
 
       <nav>
-        Username is  <%= @current_user.username %>
+        <% if is_logged_in? %>
+          Username is <%= @current_user.username %>
+        <% else %>
+          <%= link_to "Sign up", new_user_path %>
+          <%= link_to "Log in", new_session_path %>
+        <% end %>
       </nav>
     </header>
 
