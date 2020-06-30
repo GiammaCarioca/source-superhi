@@ -3,7 +3,7 @@
 		"postdeploy": "rails db:migrate"
 	},
 	"env": {
-		"RAILS_MASTER_KEY": {
+		"GITHUB_AUTH_TOKEN": {
 			"required": true
 		}
 	}
