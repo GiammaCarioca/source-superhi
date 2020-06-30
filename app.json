@@ -4,6 +4,7 @@
 	},
 	"env": {
 		"RAILS_MASTER_KEY": {
-     "required": true
+			"required": true
+		}
 	}
 }
