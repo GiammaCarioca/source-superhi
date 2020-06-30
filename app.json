@@ -3,8 +3,7 @@
 		"postdeploy": "rails db:migrate"
 	},
 	"env": {
-		"giamma-source-staging": {
-			"required": true
-		}
+		"RAILS_MASTER_KEY": {
+     "required": true
 	}
 }
