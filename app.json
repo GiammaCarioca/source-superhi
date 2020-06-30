@@ -3,7 +3,7 @@
 		"postdeploy": "rails db:migrate"
 	},
 	"env": {
-		"GITHUB_AUTH_TOKEN": {
+		"giamma-source-staging": {
 			"required": true
 		}
 	}
